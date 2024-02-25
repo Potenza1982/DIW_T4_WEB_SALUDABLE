@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!--Meta Tags: Estas etiquetas proporcionan información sobre el documento. En este caso, se establece la codificación de caracteres (charset), 
+    la configuración de la vista para dispositivos móviles (viewport), y el autor del documento. -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Miguel Angel Barragán Campos">
+
+    <!-- Enlaces a Fuentes: Se añaden enlaces a diversas fuentes de Google Fonts para su posterior uso en el diseño del sitio. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Enlaces a Iconos: Se añaden enlaces a conjuntos de iconos desde Bootstrap y Font Awesome. -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&family=Kaushan+Script&family=Lobster&family=Rubik:ital,wght@0,300..900;1,300..900&family=Titillium+Web:wght@900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+        crossorigin="anonymous" />
+
+    <!-- Enlace a Bootstrap: Se carga la hoja de estilo de Bootstrap desde un CDN (Content Delivery Network) para aplicar estilos y funcionalidades de este framework. -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Enlace a Estilos Personalizados: Se carga una hoja de estilos personalizada desde el archivo "styles.css". -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- Enlace al Kit de Iconos de Font Awesome: Se incluye el kit de iconos de Font Awesome a través de un script. -->
+    <script src="https://kit.fontawesome.com/846144e170.js" crossorigin="anonymous"></script>
+
+    <title>Potenza Style</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container">
+            <!-- Marca del sitio -->
+            <a class="navbar-brand" href="#main">
+                <span class="text-danger">Potenza</span> Style</a>
+
+            <!-- Botón para colapsar la barra de navegación en dispositivos pequeños -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-seedling"></i> <!-- Icono de semilla -->
+            </button>
+
+            <!-- Contenido de la barra de navegación -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Lista de elementos de navegación -->
+                <ul class="navbar-nav m-auto my-2 my-lg-0">
+                    <!-- Elementos de la barra de navegación -->
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="informacion.html">Información</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="formulario.html">Contacto</a>
+                    </li>
+                </ul>
+
+                <!-- Formulario de búsqueda -->
+                <form class="d-flex" role="search">
+                    <input class="px-2 search" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SECCION PRINCIPAL - Imagen + Texto + Botón -->
+    <section class="main bg-cover bg-100" id="main"
+        style="background-image: url('https://img.freepik.com/foto-gratis/ramitas-plantas-verdes-flores-pequenas_23-2148071153.jpg?w=740&t=st=1706635947~exp=1706636547~hmac=8acbb4a5d28972c7e2da83d342569b22f9d799b99f043978cd7d47db535789d1'); background-size: cover;">
+        <div class="container-fluid vh-100 mt-5">
+            <div class="row align-items-center">
+                <!-- Columna centrada en el medio -->
+                <div class="col-lg-6 mx-auto text-center mt-5">
+                    <!-- Título principal -->
+                    <h1 class="pt-lg-5 pt-3 mt-lg-5">¡La Naturaleza Siempre Ha Cuidado De Nosotros!</h1>
+                    <!-- Párrafo descriptivo -->
+                    <p class="mb-lg-5 mb-3 mt-3">Potencia tu salud de manera natural y experimenta una sensación de
+                        bienestar</p>
+                    <!-- Enlace al catálogo de productos -->
+                    <a href="about.html" class="btn btn-danger mt-3 mb-5 text-decoration-none">Saber Más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION ICONOS-IMAGENES / ICONS-IMAGES SECTION (NATURAL/banana-ORGANIC/grapes-HEALTH/brocoli) -->
+    <section class="new py-5 mt-5">
+        <div class="container mt-5">
+            <div class="row text-center">
+                <!-- Columna para Icono Natural -->
+                <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
+                    <!-- Imagen del icono Natural -->
+                    <img src="./img/frutas/bananaIcon.png" class="icon-img"
+                        alt="Natural Icon - Tiene el icono de una banana con la palabra natural">
+                    <!-- Texto descriptivo del icono Natural -->
+                    <h6>NATURAL</h6>
+                </div>
+                <!-- Columna para Icono Orgánico -->
+                <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
+                    <!-- Imagen del icono Orgánico -->
+                    <img src="./img/frutas/grapeIcon.png" class="icon-img"
+                        alt="Orgánico Icon - tiene el icono de una racimo de uvas con la palabra orgánico">
+                    <!-- Texto descriptivo del icono Orgánico -->
+                    <h6>ORGÁNICO</h6>
+                </div>
+                <!-- Columna para Icono Saludable -->
+                <div class="col-lg-4 col-md-4">
+                    <!-- Imagen del icono Saludable -->
+                    <img src="./img/frutas/brocoliIcon.png" class="icon-img"
+                        alt="Saludable Icon - tiene la imagen de un brocoli con la palabra saludable">
+                    <!-- Texto descriptivo del icono Saludable -->
+                    <h6>SALUDABLE</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION FOTO IZQ / TEXTO DER -->
+    <section class="about section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Columna de Foto -->
+                <div class="col-lg-5 col-md-12 col-12 mb-4 mb-lg-0">
+                    <!-- Contenedor de la Foto -->
+                    <div class="about-img">
+                        <!-- Imagen de Ejemplo -->
+                        <img src="https://img.freepik.com/foto-gratis/papaya-seca-natural_1368-8938.jpg?w=740&t=st=1706526186~exp=1706526786~hmac=28846cd9b9f1e4eb91c0962a015892b26a4d9da60ae7ad563ca633a9b8810425"
+                            class="img-fluid" alt="Aparece un puñado de Sales Minerales de color naranja">
+                    </div>
+                </div>
+
+                <!-- Columna de Texto -->
+                <div class="col-lg-7 col-md-12 col-12">
+                    <!-- Contenido de Texto Oscuro -->
+                    <div class="about-text text-dark">
+                        <!-- Título -->
+                        <h2 class="mt-5">Minerales Esenciales <br>Para Una Vida Saludable</h2>
+                        <!-- Párrafo de Texto -->
+                        <p class="mb-4">
+                            Con una combinación armoniosa de sales minerales derivada de las investigaciones realizadas
+                            por el Dr. Schüssler, los productos Potenza Style contribuyen a la restauración y
+                            preservación
+                            de la integridad de los tejidos internos del cuerpo humano, promoviendo la salud y el
+                            bienestar.
+                            Descubre cómo las Somosales se convierten en la mejor elección para mantener un cuerpo en
+                            constante renovación.
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION FOTO DER / TEXTO IZQ -->
+    <section class="about section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Columna de Texto -->
+                <div class="col-lg-6 col-md-12 col-12 order-lg-1 order-2 mb-4 mb-lg-0">
+                    <!-- Contenido de Texto Oscuro -->
+                    <div class="about-text text-dark">
+                        <!-- Título -->
+                        <h2 class="mt-5">Epigenética,</h2>
+                        <!-- Párrafo de Texto -->
+                        <p class="mb-4">
+                            La epigenética es la rama de la biología que investiga cómo el entorno y nuestro estilo de
+                            vida, incluyendo factores como el estrés, las emociones y la alimentación, influyen en la
+                            expresión de nuestros genes, a menudo dando lugar a enfermedades graves. Los productos
+                            epigenéticos están meticulosamente diseñados para minimizar el impacto de estos factores en
+                            nuestro cuerpo, con el objetivo de mejorar nuestra salud y reducir la susceptibilidad a este
+                            tipo de trastornos.
+                        </p>
+                        
+                    </div>
+                </div>
+
+                <!-- Columna de Foto -->
+                <div class="col-lg-6 col-md-12 col-12 order-lg-2 order-1">
+                    <!-- Contenedor de la Foto -->
+                    <div class="about-img">
+                        <!-- Imagen de Ejemplo -->
+                        <img src="https://img.freepik.com/foto-gratis/primer-plano-mujer-cientifica-mirando-muestra-prueba-analisis-hojas-experimento-biologico-plantas-organicas_482257-2046.jpg?w=740&t=st=1706528086~exp=1706528686~hmac=f9d19f4f33e71e8069d11f7bc96faac87ab917027d2cb46505706ba2c68be4f9"
+                            class="img-fluid" alt="Aparece una doctora observando una muestra de laboratorio">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- SECCION TIENDA / PRODUCTOS -->
+    <section class="product">
+        <div class="container py-5">
+            <!-- Encabezado de la Sección -->
+            <div class="row py-5">
+                <div class="col-lg-5 m-auto text-center mb-3">
+                    <h1>Nuestros Productos</h1>
+                    <h6 class="text-danger">Productos transparentes, verdad asequible para todos</h6>
+                </div>
+            </div>
+
+            <!-- Cuadrícula de Productos -->
+            <div class="row">
+                <!-- Producto 1 -->
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <!-- Imagen del Producto 1 -->
+                            <img src="https://somosalud.com/wp-content/uploads/2017/05/epigeneticos02-300x300.jpg"
+                                class="img-fluid"
+                                alt="Producto New Dekelaction - Enfoque en Metales Pesados - Envase de 90 cápsulas - Precio: 44,05€">
+                        </div>
+                    </div>
+                    <h6>New Dekelaction</h6>
+                    <p>44,05€</p>
+                </div>
+
+                <!-- Producto 2 -->
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <!-- Imagen del Producto 2 -->
+                            <img src="https://somosalud.com/wp-content/uploads/2017/05/epigeneticos03-300x300.jpg"
+                                class="img-fluid"
+                                alt="Producto Para Candi - Enfoque en Parásitos - Envase de 90 cápsulas - Precio: 44,05€">
+                        </div>
+                    </div>
+                    <h6>Para Candi</h6>
+                    <p>44,05€</p>
+                </div>
+
+                <!-- Producto 3 -->
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <!-- Imagen del Producto 3 -->
+                            <img src="https://somosalud.com/wp-content/uploads/2017/05/somosales005-300x300.jpg"
+                                class="img-fluid"
+                                alt="Producto Somosal5 - Enfoque en Ansiedad - Envase de 300 comprimidos - Precio: 30,15€">
+                        </div>
+                    </div>
+                    <h6>SomoSal 5 – Calm</h6>
+                    <p>30,15€</p>
+                </div>
+
+                <!-- Producto 4 -->
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <!-- Imagen del Producto 4 -->
+                            <img src="https://somosalud.com/wp-content/uploads/2017/05/somosales03-300x300.jpg"
+                                class="img-fluid"
+                                alt="Producto Somosal3 - Enfoque en Inmunología - Envase de 300 comprimidos - Precio: 30,15€">
+                        </div>
+                    </div>
+                    <h6>SomoSal 3 – Ferrum</h6>
+                    <p>30,15€</p>
+                </div>
+            </div>
+
+            <!-- Enlace a la Tienda -->
+            <div class="row m-3">
+                <div class="col-lg-6 text-center m-auto">
+                    <a href="shop.html" class="btn btn-danger mt-3 mb-5 text-decoration-none">Nuestra Tienda</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PROMOCIONAL - ALIMENTACIÓN ECOLÓGICA -->
+    <section class="bg-cover bg-100"
+        style="background-image: url('https://img.freepik.com/foto-gratis/vista-superior-pollo-parrilla-tomates-espacio-copia_23-2148682813.jpg?w=826&t=st=1706694645~exp=1706695245~hmac=4fbe316cc11d9d5f123c7e30dd6a2d70c93cf1369438807cd9c984f7ff1974ee'); background-size: cover;">
+        <div class="container-fluid vh-100 py-5">
+            <div class="row align-items-center py-5">
+                <div class="col-lg-8 mx-auto text-center text-light">
+                    <!-- Título Principal -->
+                    <h1 class="pt-lg-5 pt-3 mt-lg-5 mt-5">Descubre Tu Vitalidad a Través de una Alimentación Ecológica
+                    </h1>
+                    <!-- Subtítulo -->
+                    <h6 class="mb-lg-5 mb-3">Sea Saludable con Alimentos ecológicos</h6>
+                    <!-- Botón de Consulta -->
+                    <a href="formulario.html" class="btn btn-danger mt-3 mb-5 text-decoration-none">Consúltenos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION NEWS - ÚNETE A NUESTRA SOCIEDAD SECRETA -->
+    <section class="news py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-9 m-auto text-center">
+                    <!-- Título Principal -->
+                    <h1>Únete a Nuestra Sociedad Secreta</h1>
+                    <!-- Campo de Entrada de Email -->
+                    <input type="text" class="px-3" placeholder="Introduce tu Email">
+                    <!-- Botón de Envío -->
+                    <button class="btn2">Enviar</button>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-lg-11">
+                    <div class="row">
+                        <!-- Columna: CONTACTO -->
+                        <div class="col-lg-3 col-md-6 py-3">
+                            <h5 class="pb-3">CONTACTO</h5>
+                            <p class="text-white">Dirección: Calle La Huerta 3, Pilas (Sevilla)</p>
+                            <p class="text-white">Teléfono: 666111222</p>
+                            <p class="text-white">Correo Electrónico: info@potenzastyle.com</p>
+                        </div>
+                        <!-- Columna: ATENCIÓN AL CLIENTE -->
+                        <div class="col-lg-3 col-md-6 py-3">
+                            <h5 class="pb-3">ATENCIÓN AL CLIENTE</h5>
+                            <p>Profesionalidad</p>
+                            <p>A Tiempo</p>
+                            <p>Siempre Atentos</p>
+                        </div>
+                        <!-- Columna: ESPECIALIDAD -->
+                        <div class="col-lg-3 col-md-6 py-3">
+                            <h5 class="pb-3">ESPECIALIDAD</h5>
+                            <p>Productos Naturales</p>
+                            <p>Medicina Oriental</p>
+                            <p>Vida Saludable</p>
+                        </div>
+                        <!-- Columna: SIGUENOS -->
+                        <div class="col-lg-3 col-md-6 py-3">
+                            <h5 class="pb-3">SIGUENOS</h5>
+                            <span><i class="fab fa-facebook"></i></span>
+                            <span><i class="fab fa-instagram"></i></span>
+                            <span><i class="fab fa-twitter"></i></span>
+                            <span><i class="fab fa-google-plus"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Separador -->
+            <hr>
+            <!-- Derechos de Autor -->
+            <p class="text-center">Copyright 2024 Todos los derechos reservados | Desarrollado por Miguel Angel Barragán
+            </p>
+        </div>
+    </section>
+
+    <!-- SCRIPTS QUE SE PONEN AL FINAL -->
+    <script src="./assets/js/scripts.js"></script>
+
+    <!-- Bootstrap JS desde CDN para mejorar la carga -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
